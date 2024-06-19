@@ -61,10 +61,10 @@ row of headers, setting up the rows it would look like this:
 
 ```html
 <table>
-  <tr></tr>
-  <tr></tr>
-  <tr></tr>
-  <tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
 </table>
 ```
 
@@ -84,14 +84,14 @@ These headers need to go in the first row, so that may look something like:
 
 ```html
 <table>
-  <tr>
-    <th>Name</th>
-    <th>Phone Number</th>
-    <th>Bringing</th>
-  </tr>
-  <tr></tr>
-  <tr></tr>
-  <tr></tr>
+	<tr>
+		<th>Name</th>
+		<th>Phone Number</th>
+		<th>Bringing</th>
+	</tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
 </table>
 ```
 
@@ -111,9 +111,9 @@ following:
 
 ```html
 <tr>
-  <td>Daniel</td>
-  <td>718-555-1212</td>
-  <td>Guacamole</td>
+	<td>Daniel</td>
+	<td>718-555-1212</td>
+	<td>Guacamole</td>
 </tr>
 ```
 
@@ -125,26 +125,26 @@ entire table would look like the following:
 
 ```html
 <table>
-  <tr>
-    <th>Name</th>
-    <th>Phone Number</th>
-    <th>Bringing</th>
-  </tr>
-  <tr>
-    <td>Daniel</td>
-    <td>718-555-1212</td>
-    <td>Guacamole</td>
-  </tr>
-  <tr>
-    <td>Rachel</td>
-    <td>718-555-1212</td>
-    <td>Chips</td>
-  </tr>
-  <tr>
-    <td>Terrance</td>
-    <td>914-555-1212</td>
-    <td>Salsa</td>
-  </tr>
+	<tr>
+		<th>City</th>
+		<th>Stater</th>
+		<th>2017 Estimate</th>
+	</tr>
+	<tr>
+		<td>New York</td>
+		<td>718-555-1212</td>
+		<td>Guacamole</td>
+	</tr>
+	<tr>
+		<td>Rachel</td>
+		<td>718-555-1212</td>
+		<td>Chips</td>
+	</tr>
+	<tr>
+		<td>Terrance</td>
+		<td>914-555-1212</td>
+		<td>Salsa</td>
+	</tr>
 </table>
 ```
 
